@@ -1,0 +1,14 @@
+sudo: false
+
+language: java
+java:
+  - 12.0.2
+
+branches:
+  only:
+    - master
+deploy:
+  provider: heroku
+  app: helloworldexam
+  api_key:
+    secure: 07a7cdd9-b311-4190-9662-62d8fd0c67fc
